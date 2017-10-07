@@ -10,7 +10,7 @@
 
     <groupId>com.upside.dropwizard</groupId>
     <artifactId>droptools-parent</artifactId>
-    <version>1.2.0.upside-SNAPSHOT</version>
+    <version>1.2.0.upside</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -25,7 +25,7 @@
         <developerConnection>scm:git:git@github.com:upside-services/droptools.git</developerConnection>
         <connection>scm:git:https://github.com/upside-services/droptools.git</connection>
         <url>https://github.com/upside-services/droptools</url>
-      <tag>HEAD</tag>
+      <tag>1.2.0.upside</tag>
     </scm>
 
     <properties>

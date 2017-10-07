@@ -5,7 +5,7 @@
     <parent>
         <artifactId>droptools-parent</artifactId>
         <groupId>com.upside.dropwizard</groupId>
-        <version>1.2.0.upside-SNAPSHOT</version>
+        <version>1.2.0.upside</version>
     </parent>
 
     <artifactId>dropwizard-redis</artifactId>
