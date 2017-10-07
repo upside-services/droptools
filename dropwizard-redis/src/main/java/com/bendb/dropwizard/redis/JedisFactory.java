@@ -11,11 +11,10 @@ import javax.validation.constraints.NotNull;
 import java.net.URI;
 
 /**
- * A factory for creating configured {@link JedisPool} instances.
+ * <p>A factory for creating configured {@link JedisPool} instances.</p>
  *
- * <p/>
  * <strong>Configuration Parameters</strong>
- * <table>
+ * <table summary="configuration description">
  *     <tr>
  *         <th>Name</th>
  *         <th>Default Value</th>
@@ -105,7 +104,7 @@ public class JedisFactory {
     }
 
     public String getHost() {
-        return endpoint.getHostText();
+        return endpoint.getHost();
     }
 
     public int getPort() {
